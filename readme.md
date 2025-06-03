@@ -14,13 +14,15 @@ Este proyecto implementa un sistema de simulación basado en modelos fisiológic
 
 ## Preexploración
 
-1. Utilizar creacion_dataset.ipynb para visualizar los datos con los que vamos a trabajar, este extrae los datos del directorio data/meteo
+1. Utilizar creacion_dataset.ipynb para visualizar los datos con los que vamos a trabajar, este extrae los datos del directorio "data/meteo"
 
-2. Para hacer lo mismo con los datos del .soil que tienen las características del terreno, debemos primero transformar el ".soil" a ".txt", para ello, utilizaremos el archivo converter.py
+2. Para hacer lo mismo con los datos del .soil que tienen las características del terreno, debemos primero transformar el ".soil" a ".txt", para ello, utilizaremos el archivo "converter.py"
 
-3. Ejecutaremos el visualizar_soil.ipynb para ver la percolación del terreno y sus características.
+3. Ejecutaremos el "visualizar_soil.ipynb" para ver la percolación del terreno y sus características.
 
 4. Crearemos el dataset de entrada con el archivo "creación_dataset.ipynb" para la posterior implementación del aprendizaje de máquina.
+
+5. Cambiaremos el nombre de algunas columnas que interfieren con scipy-learn utilizando "dataset_ml.ipynb"
 
 ## 🚀 Estructura del flujo (orquestación.py)
 
